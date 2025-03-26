@@ -1,0 +1,120 @@
+[
+    {
+        "firstName": "Elton",
+        "lastName": "Schowalter",
+        "age": 40,
+        "address": {
+            "streetAddress": "6206 Ula Islands",
+            "city": "Schuppeside",
+            "state": "North Carolina",
+            "postalCode": 31332
+        },
+        "phoneNumbers": [
+            {
+                "type": "Home",
+                "number": "(505) 818-4443"
+            },
+            {
+                "type": "Work",
+                "number": "(505) 299-9135"
+            }
+        ]
+    },
+    {
+        "firstName": "Marielle",
+        "lastName": "Gottlieb",
+        "age": 51,
+        "address": {
+            "streetAddress": "81948 Madalyn Unions",
+            "city": "North Damonmouth",
+            "state": "Colorado",
+            "postalCode": 76126
+        },
+        "phoneNumbers": [
+            {
+                "type": "Home",
+                "number": "(983) 441-6797"
+            },
+            {
+                "type": "Home",
+                "number": "(305) 273-9227"
+            }
+        ]
+    },
+    {
+        "firstName": "Hugo",
+        "lastName": "Dooley",
+        "age": 50,
+        "address": {
+            "streetAddress": "166 Hyatt Garden",
+            "city": "Osinskiborough",
+            "state": "Idaho",
+            "postalCode": 53977
+        },
+        "phoneNumbers": [
+            {
+                "type": "Home",
+                "number": "(337) 345-3571"
+            },
+            {
+                "type": "Work",
+                "number": "(730) 630-3955"
+            }
+        ]
+    },
+    {
+        "firstName": "Virgilio",
+        "lastName": "Fay",
+        "age": 40,
+        "address": {
+            "streetAddress": "37301 Benny Ramp",
+            "city": "North Waldo",
+            "state": "Delaware",
+            "postalCode": 79777
+        },
+        "phoneNumbers": [
+            {
+                "type": "Home",
+                "number": "(305) 276-1654"
+            }
+        ]
+    },
+    {
+        "firstName": "Chung",
+        "lastName": "Schimmel",
+        "age": 35,
+        "address": {
+            "streetAddress": "405 Larae Shores",
+            "city": "Lake Matthewmouth",
+            "state": "Kansas",
+            "postalCode": 44776
+        },
+        "phoneNumbers": [
+            {
+                "type": "Home",
+                "number": "(329) 268-9835"
+            }
+        ]
+    },
+    {
+        "firstName": "Jennell",
+        "lastName": "Champlin",
+        "age": 49,
+        "address": {
+            "streetAddress": "451 Parisian Ways",
+            "city": "Evelinshire",
+            "state": "Maryland",
+            "postalCode": 9015
+        },
+        "phoneNumbers": [
+            {
+                "type": "Work",
+                "number": "(305) 765-7328"
+            },
+            {
+                "type": "Fa",
+                "number": "(408) 419-6955"
+            }
+        ]
+    }
+]

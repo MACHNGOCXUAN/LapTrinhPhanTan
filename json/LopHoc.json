@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Math",
+    "teacher": "Mr. Smith",
+    "room": "101",
+    "start_time": "6:30 AM",
+    "end_time": "9:00 AM",
+    "students": [
+      {
+        "student_id": "1",
+        "name": "John",
+        "age": 20,
+        "gpa": 3.5,
+        "address": {
+          "street": "123 Main St",
+          "city": "Springfield",
+          "state": "IL",
+          "zip": "62701"
+        }
+      },
+      {
+        "student_id": "2",
+        "name": "Alice",
+        "age": 21,
+        "gpa": 3.8,
+        "address": {
+          "street": "456 Elm St",
+          "city": "Springfield",
+          "state": "IL",
+          "zip": "62702"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Physics",
+    "teacher": "Dr. Brown",
+    "room": "202",
+    "start_time": "9:30 AM",
+    "end_time": "12:00 PM",
+    "students": [
+      {
+        "student_id": "3",
+        "name": "Bob",
+        "age": 22,
+        "gpa": 3.2,
+        "address": {
+          "street": "789 Oak St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "60601"
+        }
+      },
+      {
+        "student_id": "4",
+        "name": "Emma",
+        "age": 20,
+        "gpa": 3.9,
+        "address": {
+          "street": "101 Pine St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "60602"
+        }
+      },
+      {
+        "student_id": "5",
+        "name": "David",
+        "age": 23,
+        "gpa": 3.4,
+        "address": {
+          "street": "202 Maple St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "60603"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Chemistry",
+    "teacher": "Ms. Johnson",
+    "room": "303",
+    "start_time": "1:00 PM",
+    "end_time": "3:30 PM",
+    "students": [
+      {
+        "student_id": "6",
+        "name": "Sarah",
+        "age": 21,
+        "gpa": 3.7,
+        "address": {
+          "street": "303 Birch St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "02108"
+        }
+      },
+      {
+        "student_id": "7",
+        "name": "Mike",
+        "age": 22,
+        "gpa": 3.1,
+        "address": {
+          "street": "404 Cedar St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "02109"
+        }
+      }
+    ]
+  }
+]

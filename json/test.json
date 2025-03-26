@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "alt_spellings": [
+      "VN",
+      "Socialist Republic of Vietnam",
+      "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+      "Viet Nam"
+    ],
+    "area": 331212,
+    "borders": ["KHM", "CHN", "LAO"],
+    "callingCode": ["84"],
+    "capital": "Hanoi",
+    "cca2": "VN",
+    "cca3": "VNM",
+    "cioc": "VIE",
+    "currency": ["VND"],
+    "demonym": "Vietnamese",
+    "landlocked": false,
+    "latlng": [16.16666666, 107.83333333],
+    "name": {
+      "common": "Vietnam",
+      "official": "Socialist Republic of Vietnam"
+    },
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "translations": {
+      "fra": {
+        "common": "Viêt Nam",
+        "official": "République socialiste du Viêt Nam"
+      },
+      "ita": {
+        "common": "Vietnam",
+        "official": "Repubblica socialista del Vietnam"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "alt_spellings": [
+      "TH",
+      "Kingdom of Thailand",
+      "ราชอาณาจักรไทย",
+      "Thailand"
+    ],
+    "area": 513120,
+    "borders": ["KHM", "LAO", "MMR", "MYS"],
+    "callingCode": ["66"],
+    "capital": "Bangkok",
+    "cca2": "TH",
+    "cca3": "THA",
+    "cioc": "THA",
+    "currency": ["THB"],
+    "demonym": "Thai",
+    "landlocked": false,
+    "latlng": [15.8700, 100.9925],
+    "name": {
+      "common": "Thailand",
+      "official": "Kingdom of Thailand"
+    },
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "translations": {
+      "fra": {
+        "common": "Thaïlande",
+        "official": "Royaume de Thaïlande"
+      },
+      "ita": {
+        "common": "Tailandia",
+        "official": "Regno di Tailandia"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "alt_spellings": [
+      "ID",
+      "Republic of Indonesia",
+      "Republik Indonesia",
+      "Indonesia"
+    ],
+    "area": 1904569,
+    "borders": ["TLS", "MYS", "PNG"],
+    "callingCode": ["62"],
+    "capital": "Jakarta",
+    "cca2": "ID",
+    "cca3": "IDN",
+    "cioc": "INA",
+    "currency": ["IDR"],
+    "demonym": "Indonesian",
+    "landlocked": false,
+    "latlng": [-0.7893, 113.9213],
+    "name": {
+      "common": "Indonesia",
+      "official": "Republic of Indonesia"
+    },
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "translations": {
+      "fra": {
+        "common": "Indonésie",
+        "official": "République d'Indonésie"
+      },
+      "ita": {
+        "common": "Indonesia",
+        "official": "Repubblica di Indonesia"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "alt_spellings": [
+      "PH",
+      "Republic of the Philippines",
+      "Republika ng Pilipinas",
+      "Philippines"
+    ],
+    "area": 300000,
+    "borders": [],
+    "callingCode": ["63"],
+    "capital": "Manila",
+    "cca2": "PH",
+    "cca3": "PHL",
+    "cioc": "PHI",
+    "currency": ["PHP"],
+    "demonym": "Filipino",
+    "landlocked": false,
+    "latlng": [12.8797, 121.7740],
+    "name": {
+      "common": "Philippines",
+      "official": "Republic of the Philippines"
+    },
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "translations": {
+      "fra": {
+        "common": "Philippines",
+        "official": "République des Philippines"
+      },
+      "ita": {
+        "common": "Filippine",
+        "official": "Repubblica delle Filippine"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "alt_spellings": [
+      "JP",
+      "Nihon",
+      "Nippon",
+      "日本",
+      "Japan"
+    ],
+    "area": 377975,
+    "borders": [],
+    "callingCode": ["81"],
+    "capital": "Tokyo",
+    "cca2": "JP",
+    "cca3": "JPN",
+    "cioc": "JPN",
+    "currency": ["JPY"],
+    "demonym": "Japanese",
+    "landlocked": false,
+    "latlng": [36.2048, 138.2529],
+    "name": {
+      "common": "Japan",
+      "official": "Japan"
+    },
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "translations": {
+      "fra": {
+        "common": "Japon",
+        "official": "Japon"
+      },
+      "ita": {
+        "common": "Giappone",
+        "official": "Giappone"
+      }
+    }
+  }
+]

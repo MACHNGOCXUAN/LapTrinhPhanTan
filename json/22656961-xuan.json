@@ -1,0 +1,26 @@
+[
+    {
+        "student_id": "1",
+        "name": "John",
+        "age": 20,
+        "gpa": 3.5,
+        "address": {
+            "street": "123 Main St",
+            "city": "Springfield",
+            "state": "IL",
+            "zip": "62701"
+        }
+    },
+    {
+        "student_id": "2",
+        "name": "Alice",
+        "age": 21,
+        "gpa": 3.799999952316284,
+        "address": {
+            "street": "456 Elm St",
+            "city": "Springfield",
+            "state": "IL",
+            "zip": "62702"
+        }
+    }
+]
