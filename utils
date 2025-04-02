@@ -1,0 +1,28 @@
+package iuh.edu.vn.utils;
+
+import iuh.edu.vn.models.Doctor;
+import org.neo4j.driver.*;
+import org.neo4j.driver.types.Node;
+
+public class AppUtils {
+    public static Driver getDriver(){
+        String userName = "neo4j";
+        String password = "Machxuan123";
+        String uri = "neo4j://localhost:7687";
+        AuthToken authToken = AuthTokens.basic(userName, password);
+        return GraphDatabase.driver(uri, authToken);
+    }
+
+    public static Session getSession(){
+        return getDriver().session(SessionConfig.forDatabase("onthi"));
+    }
+
+    public static Doctor toDoctor(Node node) {
+        return new Doctor(
+                node.get("ID").asString(),
+                node.get("Name").asString(),
+                node.get("Phone").asString(),
+                node.get("Speciality").asString()
+        );
+    }
+}
