@@ -1,0 +1,51 @@
+const multer = require("multer")
+
+const stogare = multer.memoryStorage({
+  destination: (req, file, cb) => {
+    cb(null, "/")
+  }
+})
+
+const upload = multer({
+  storage: stogare,
+  limits: {
+    fileSize: 1024 * 1024 * 5
+  }
+}).single("image")
+
+
+module.exports = upload
+
+
+PORT = 5000
+HOST = localhost
+ACCESSKEY = AKIAZ7SALG5T3QWQ5L5J
+SECRETACCESSKEY = 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
+BUCKET_NAME = on-thi
+TABLE_NAME = news
+
+
+const express = require("express")
+const bodyParser = require("body-parser")
+const router = require("./routes/newRoute")
+require("dotenv").config()
+
+const app = express()
+
+
+app.use(express.json({ extended: false }))
+app.use(express.urlencoded({ extended: true }))
+app.use(bodyParser.json())
+
+app.use(express.static("./views"))
+app.set("view engine", "ejs")
+app.set("views", "./views")
+
+const port = process.env.PORT || 5000
+const host = process.env.HOST || localhost
+
+app.use("/", router)
+
+app.listen(port, host, () => {
+  console.log(`Server start http://${host}:${port}`);
+})
